@@ -1,0 +1,43 @@
+Qestion 1 :- Write a blog on Difference between HTTP1.1 vs HTTP2
+
+Answer :- 
+
+Introduction :-
+
+HTTP stands for Hyper Text Transfer Protocol. It is a synonym of “Accessing Internet” for most of us. 
+It was invented by Tim Berners-Lee in 1989. It is used in client-server communication. The communication protocol 
+is your aid in reaching out to World Wide Web. Technically, it sends the request to the server and the server sends the 
+esponse to user. 
+
+
+         HTTP 1.1                                                     HTTP 2.0
+* It uses Textual format.                                        * It uses Binary format
+* It uses simple TCP                                             * It uses SPDY Protocol
+* Header file is repeated in every request                       * HPACK is used to split header from the data  
+* GET/POST methods are used for request                          * It supports full multiplexing
+  and response 
+* Long performance timing                                        * Short performance timing
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Question 2 :- Write a blog about objects and its internal representation in Javascript
+
+Answer :- 
+
+   Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript.
+    These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null,
+     undefined and symbol) in the sense that while these primitive data-types all store a single value each 
+     (depending on their types).
+
+(e.g)
+      var bike = {
+                  Make: “”, Ducati
+                  Model: “z-Class”,
+                  Color: “Black”, 
+                  Weight: “125kg”,
+                  Mileage: “19Kmpl”,
+                  Rating: 8.5
+                };   
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\                 
